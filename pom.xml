@@ -29,7 +29,7 @@
   </parent>
 
   <artifactId>jspringbot-pretty-logger</artifactId>
-  <version>1.5-SNAPSHOT</version>
+  <version>1.5</version>
   <name>jspringbot-pretty-logger</name>
 
   <licenses>
