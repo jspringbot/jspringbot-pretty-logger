@@ -84,9 +84,8 @@ public class Theme {
   protected Map<String, Style> styles;
 
   /**
-   * Constructor.<br />
-   * <p>
-   * <b>Default value:</b><br />
+   * Constructor.
+   *
    * <ul>
    * <li>font: Consolas 12pt</li>
    * <li>background: white</li>
@@ -97,7 +96,7 @@ public class Theme {
    * <li>gutter text padding-left: 7px</li>
    * <li>gutter text padding-right: 7px</li>
    * </ul>
-   * </p>
+   *
    */
   public Theme() {
     font = new Font("Consolas", Font.PLAIN, 12);
@@ -136,12 +135,6 @@ public class Theme {
     return plain;
   }
 
-  /**
-   * Get the {@link AttributeSet} of {@code styleKeys}. For more than one 
-   * styles, separate the styles by space, e.g. 'plain comments'.
-   * @param styleKeys the style keys with keys separated by space
-   * @return the combined {@link AttributeSet}
-   */
   public SimpleAttributeSet getStylesAttributeSet(String styleKeys) {
     if (styleKeys.indexOf(' ') != -1) {
       SimpleAttributeSet returnAttributeSet = new SimpleAttributeSet();
@@ -177,7 +170,6 @@ public class Theme {
   /**
    * Get the style by keyword.
    * @param key the keyword
-   * @return the {@link syntaxhighlighter.theme.Style} related to the 
    * {@code key}; if the style related to the {@code key} not exist, the 
    * style of 'plain' will return.
    */

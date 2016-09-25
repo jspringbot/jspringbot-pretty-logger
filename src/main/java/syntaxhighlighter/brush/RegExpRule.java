@@ -74,13 +74,12 @@ public class RegExpRule {
    * The value can either be a string or a RegExpRule:
    * <ul>
    * <li>If it is a string, it should be one of the style key from 
-   * {@link syntaxhighlighter.theme}.<br />
-   * The style will be applied to the 'strip of string related to the group 
+   * The style will be applied to the 'strip of string related to the group
    * number'.</li>
    * <li>If it is a RegExpRule, the RegExpRule will be applied on the 'strip
    * of string related to the group number' for further operations/matching.</li>
    * </ul>
-   * </p>
+   *
    */
   protected Map<Integer, Object> groupOperations;
   /**

@@ -25,8 +25,6 @@ import javax.swing.text.StyleConstants;
 import java.awt.*;
 
 /**
- * The style used by {@link syntaxhiglight.Theme} as those of CSS styles.
- * 
  * @author Chan Wai Shing
  */
 public class Style implements Cloneable {
@@ -36,9 +34,6 @@ public class Style implements Cloneable {
    * changes.
    */
   protected boolean changed;
-  /**
-   * The {@link AttributeSet} representation of this style.
-   */
   protected SimpleAttributeSet attributeSet;
   /**
    * Font bold.
@@ -63,7 +58,6 @@ public class Style implements Cloneable {
 
   /**
    * Constructor.
-   * <p>
    * <b>Default values:</b><br />
    * <ul>
    * <li>bold: false;</li>
@@ -72,7 +66,6 @@ public class Style implements Cloneable {
    * <li>underline: false;</li>
    * <li>italic: false;</li>
    * </ul>
-   * </p>
    */
   public Style() {
     changed = true;
@@ -85,10 +78,6 @@ public class Style implements Cloneable {
     italic = false;
   }
 
-  /**
-   * Get the {@link AttributeSet} of this style.
-   * @return the {@link AttributeSet}
-   */
   public SimpleAttributeSet getAttributeSet() {
     if (changed) {
       attributeSet = new SimpleAttributeSet();

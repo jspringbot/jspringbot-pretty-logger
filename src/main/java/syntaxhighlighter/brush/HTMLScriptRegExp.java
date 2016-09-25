@@ -24,11 +24,8 @@ import java.util.regex.Pattern;
 
 /**
  * Regular expression for HTML script. This will be used to determine if the 
- * language was implanted into the HTML using {@code left} and {@code right}. 
- * e.g. left is "&lt;script>" and right is "&lt;/script>", if there is any 
- * content start with "&lt;script>" and "&lt;/script>", the content in between 
- * these two will be parsed by using this brush.
- * 
+ * language was implanted into the HTML using {@code left} and {@code right}.
+ *
  * @author Chan Wai Shing
  */
 public class HTMLScriptRegExp {
