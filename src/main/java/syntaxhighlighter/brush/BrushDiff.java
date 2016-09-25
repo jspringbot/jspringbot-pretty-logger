@@ -27,7 +27,7 @@ import java.util.regex.Pattern;
 
 /**
  * Diff file brush.
- * @author Chan Wai Shing <cws1989@gmail.com>
+ * @author Chan Wai Shing
  */
 public class BrushDiff extends Brush {
 

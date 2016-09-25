@@ -29,7 +29,7 @@ import java.util.regex.Pattern;
  * content start with "&lt;script>" and "&lt;/script>", the content in between 
  * these two will be parsed by using this brush.
  * 
- * @author Chan Wai Shing <cws1989@gmail.com>
+ * @author Chan Wai Shing
  */
 public class HTMLScriptRegExp {
 

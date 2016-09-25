@@ -13,7 +13,7 @@ import java.util.Map;
 
 /**
  * The SyntaxHighlighter parser for syntax highlight.
- * @author Chan Wai Shing <cws1989@gmail.com>
+ * @author Chan Wai Shing
  */
 public class SyntaxHighlighterParser implements Parser {
 

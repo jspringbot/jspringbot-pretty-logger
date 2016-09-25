@@ -30,7 +30,7 @@ import java.util.List;
  * Information includes where the content located in the document (offset and 
  * length) and what style(s) should be applied on that segment of content.
  * 
- * @author Chan Wai Shing <cws1989@gmail.com>
+ * @author Chan Wai Shing
  */
 public class ParseResult {
 

@@ -27,7 +27,7 @@ import java.awt.*;
 
 /**
  * Midnight theme.
- * @author Chan Wai Shing <cws1989@gmail.com>
+ * @author Chan Wai Shing
  */
 public class ThemeMidnight extends Theme {
 

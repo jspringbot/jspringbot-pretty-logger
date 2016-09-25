@@ -23,7 +23,7 @@ package syntaxhighlighter.parser;
 /**
  * Matched result, it will be generated when parsing the content.
  * 
- * @author Chan Wai Shing <cws1989@gmail.com>
+ * @author Chan Wai Shing
  */
 public class MatchResult {
 

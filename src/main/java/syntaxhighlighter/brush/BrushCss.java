@@ -28,7 +28,7 @@ import java.util.regex.Pattern;
 /**
  * CSS brush.
  *
- * @author Chan Wai Shing <cws1989@gmail.com>
+ * @author Chan Wai Shing
  */
 public class BrushCss extends Brush {
 

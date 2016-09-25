@@ -27,7 +27,7 @@ import java.awt.*;
 /**
  * The style used by {@link syntaxhiglight.Theme} as those of CSS styles.
  * 
- * @author Chan Wai Shing <cws1989@gmail.com>
+ * @author Chan Wai Shing
  */
 public class Style implements Cloneable {
 
