@@ -58,7 +58,7 @@ public class Style implements Cloneable {
 
   /**
    * Constructor.
-   * <b>Default values:</b><br />
+   *
    * <ul>
    * <li>bold: false;</li>
    * <li>color: black;</li>

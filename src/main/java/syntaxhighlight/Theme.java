@@ -167,12 +167,6 @@ public class Theme {
     return styles.remove(styleKey);
   }
 
-  /**
-   * Get the style by keyword.
-   * @param key the keyword
-   * {@code key}; if the style related to the {@code key} not exist, the 
-   * style of 'plain' will return.
-   */
   public Style getStyle(String key) {
     Style returnStyle = styles.get(key);
     return returnStyle != null ? returnStyle : plain;
