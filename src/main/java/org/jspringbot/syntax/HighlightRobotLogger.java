@@ -33,7 +33,7 @@ public class HighlightRobotLogger extends JSpringBotLogger {
 
     public static final int WORD_WRAP_LENGTH = 120;
 
-    public static final int TRIM_SIZE = 225;
+    public static final int TRIM_SIZE = 12000;
 
     public static HighlightRobotLogger getLogger(Class clazz) {
         return new HighlightRobotLogger(clazz);
